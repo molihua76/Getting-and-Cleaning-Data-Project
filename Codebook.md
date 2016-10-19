@@ -13,21 +13,21 @@
 
 ### Data processing
   R language is used for the script run_analysis.R which performs the 5 steps as required:
-	* Merges the training and the test sets to create one data set.
-	* Extracts only the measurements on the mean and standard deviation for each measurement.
-	* Uses descriptive activity names to name the activities in the data set
-	* Appropriately labels the data set with descriptive variable names.
-	* Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+  1. Merges the training and the test sets to create one data set.
+  2. Extracts only the measurements on the mean and standard deviation for each measurement.
+  3. Uses descriptive activity names to name the activities in the data set
+  4. Appropriately labels the data set with descriptive variable names.
+  5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Data Dictionary
-### Activity labels (activityId) 
-   Value 1-6 represents six activities subject did during the experiments.
-	- 1:WALKING 
-	- 2:WALKING_UPSTAIRS 
-	- 3:WALKING_DOWNSTAIRS 
-	- 4:SITTING 
-	- 5:STANDING 
-	- 6: LAYING 
+### Activity labels  
+  Variable activityId 1-6 represents six activities subject did during the experiments.
+  * WALKING: 1 
+  * WALKING_UPSTAIRS: 2 
+  * WALKING_DOWNSTAIRS: 3 
+  * SITTING: 4 
+  * STANDING: 5 
+  * LAYING: 6 
 
 ### Measurements
 * timeBodyAccelerator-mean-X
